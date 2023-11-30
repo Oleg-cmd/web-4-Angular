@@ -8,6 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'web_4';
-  username: string | undefined;
-  password: string | undefined;
+
 }

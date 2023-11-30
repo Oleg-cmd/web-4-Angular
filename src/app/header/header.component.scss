@@ -1,5 +1,5 @@
 // header vars
-$header_background_color: #000;
+$header_background_color: rgb(2, 0, 36);
 $header_color: #fff;
 //
 
@@ -10,7 +10,7 @@ $header_color: #fff;
   justify-content: center;
   align-items: center;
   color: $header_color;
-  background: rgb(2, 0, 36);
+  background: $header_background_color;
 
   .header-container {
     width: 95%;
@@ -26,6 +26,10 @@ $header_color: #fff;
     .current-page {
     }
     .variant {
+      cursor: pointer;
+      div:not(:last-child) {
+        margin-bottom: 10px;
+      }
     }
   }
 }
